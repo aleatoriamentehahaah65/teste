@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#leve {
+    background-color: #8ed1a8;
+}
+
+#leve:hover {
+    background-color: #78b895;
+}
+
+#muito {
+    background-color: #f67272;
+}
+
+#muito:hover {
+    background-color: #d96060;
+}
+
+.result img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#mensagem {
+    font-size: 20px;
+    font-weight: bold;
+}
